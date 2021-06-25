@@ -90,12 +90,7 @@
             <version>1.9.2</version>
             <type>jar</type>
         </dependency>
-	    <dependency>
-    <groupId>org.apache.struts</groupId>
-    <artifactId>struts2-core</artifactId>
-    <version>${struts2.version}</version>
-    
-	    
+		
 				<!-- LOGGING -->
 		<dependency>
 	<groupId>log4j</groupId>
@@ -220,7 +215,6 @@
             </activation>
 
         </profile>
-	       
         <profile>
             <id>metrics</id>
             <build>
