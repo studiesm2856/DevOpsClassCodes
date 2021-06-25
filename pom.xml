@@ -94,16 +94,8 @@
     <groupId>org.apache.struts</groupId>
     <artifactId>struts2-core</artifactId>
     <version>${struts2.version}</version>
-    <exclusions>
-        <exclusion>
-            <artifactId>tools</artifactId>
-            <groupId>com.sun</groupId>
-        </exclusion>
-    </exclusions>
-</dependency>
+    
 	    
-	
-	
 				<!-- LOGGING -->
 		<dependency>
 	<groupId>log4j</groupId>
