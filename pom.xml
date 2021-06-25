@@ -103,7 +103,7 @@
 </dependency>
 	    
 	
-		
+	
 				<!-- LOGGING -->
 		<dependency>
 	<groupId>log4j</groupId>
@@ -228,12 +228,7 @@
             </activation>
 
         </profile>
-	       <exclusions>
-            <exclusion>
-                <artifactId>tools</artifactId>
-                <groupId>com.sun</groupId>
-            </exclusion>
-        </exclusions>
+	       
         <profile>
             <id>metrics</id>
             <build>
