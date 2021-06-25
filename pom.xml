@@ -102,12 +102,6 @@
     </exclusions>
 </dependency>
 	    
-	    <exclusions>
-            <exclusion>
-                <artifactId>tools</artifactId>
-                <groupId>com.sun</groupId>
-            </exclusion>
-        </exclusions>
 	
 		
 				<!-- LOGGING -->
@@ -234,6 +228,12 @@
             </activation>
 
         </profile>
+	       <exclusions>
+            <exclusion>
+                <artifactId>tools</artifactId>
+                <groupId>com.sun</groupId>
+            </exclusion>
+        </exclusions>
         <profile>
             <id>metrics</id>
             <build>
