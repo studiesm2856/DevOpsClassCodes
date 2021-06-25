@@ -90,6 +90,24 @@
             <version>1.9.2</version>
             <type>jar</type>
         </dependency>
+	    <dependency>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts2-core</artifactId>
+    <version>${struts2.version}</version>
+    <exclusions>
+        <exclusion>
+            <artifactId>tools</artifactId>
+            <groupId>com.sun</groupId>
+        </exclusion>
+    </exclusions>
+</dependency>
+	    
+	    <exclusions>
+            <exclusion>
+                <artifactId>tools</artifactId>
+                <groupId>com.sun</groupId>
+            </exclusion>
+        </exclusions>
 	
 		
 				<!-- LOGGING -->
